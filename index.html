@@ -1,109 +1,214 @@
-<!Docmen <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta charset="UTF-8"/>
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
-</html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
-</html>
-<html>
+<!doctype <!DOCTYPE html>
+
     <head>
-        <title>first bilal project</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>For test</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
         <style type="text/css">
-        .aa ul {
+       .aa{
+
+        float: left;
+    font-family: Cairo;
+    font-size: 20px;
+    padding: 22px;
+}
+
+.aa {
+    background-color: #737afd;
+    height: 30px; width: 100%;
+}
+
+.aa ul{
+    padding-right: 15%;
+    
+}
+
+.aa ul li:hover{
+    background-color:rgb(243, 247, 246);
+}
+
+#navBar img {
+    float: right;
+    display: block;
+    background-color: rgba(2, 226, 255, 0.603);
+    border-radius: 12px 18px 18px 18px;
+    padding: 3px 3px;  
+    margin: 4px 4px 4px 4px;
+    margin-left: 2px;
+    margin-top: 1px;
+}
+
+#navSearch{
+    border: 5px; border-radius: 22px;
+    height: 39px; width: 150px;
+    margin-top: 0px; padding: 0px 10px;
+    font-family: Cairo; font-size: 20px; color: rgb(10, 10, 10);
+    float: right;
+    transition-property: width;
+    transition-duration: 0.8s;
+    transition-delay: 99ms;
+}
+
+#navSearch:focus{
+    width: 300px;
+}
+
+.nav_btn{
+    float: left;
+    display: block;
+    float: right;
+    font-family: sans-serif;
+    font-size: 22px;
+    padding: 17px;   
+
+}
+
+.nav_btn a{
+    color: rgb(141, 148, 207);
+    text-decoration: none;
+}
+        .aa ul  {
 list-style: none;
+float: right;
         }
         .aa ul li{
-            background-color: rgba(13, 28, 236, 0.356);
-width: 52px;
-height: 20px;
+           
+            background-color:rgba(122, 228, 240, 0.945);
+width: 56px;
+height: 22px;
 line-height: 20px;
 text-align: center;
 float: left;
-margin-left: 145px;
+margin-left: 112px;
 color: rgb(246, 247, 253);
 border: 1px solid rgb(255, 255, 255);
 
         }
-       .p{
-           margin-top: 0px;
-           font-size: 12px;
+
+        #siteFooter{
+    
+            height:75px;
+            background-color: #1f3ef1;
+            color: white;
+            text-align: center;
         }
- 
-      
+  
 
-        .bilal{
-                background-color: rgb(61, 117, 238);
-                color: white;
-                width: 100%;
-                height: 100px;
-                text-align: center;
-                font-size: 25px;
-                padding: 10px;
-                margin-bottom: 20px;
-            }
+        
+    }
+    @font-face{
+    font-family: 'Changa';
+    src: local("fonts/Changa-SemiBold.ttf");
+}
+    @font-face{
+    font-family: 'Cairo';
+    src: local("fonts/Cairo-SemiBold.ttf");
+}
+    h2{
+    font-family: Cairo; font-size: 48px;
+}
+    h3{
+    font-family: Cairo; font-size: 30px;
+}
+#contactUs{
+    height: 520px;
+    background-color: #5c84f3;
+    text-align:center
+}
 
-    p{
-        margin-right: 800px;
-        margin-top: 0px;
-        margin-bottom:22px;
-    }
-    p {
-        margin-top: 2px;
-    }
-    .hh{
-      margin-left: 444px;
-        margin-right: 25px;
-        margin-top: 0px;
-        width: 300px;
-    }
- 
+#contactUsMain{
+    width: 960px;
+    margin: 0px auto;
+}
+
+#contactDetails{
+    text-align: center;
+    width: 480px;
+    float: left;
+}
+
+#contactUs h2{
+    color: white;
+}
+
+#contactDetails h3{
+    color: white;
+}
+
+.contactImg{
+    height: 65px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    float: left;
+}
+#contactDetails img{
+    flood-color: red;
+    float: left;
+    margin-left: 12px;
+}
+#contactLocation{
+    width: 400px;
+    float: right;
+}
+.ii img{
+float: left;
+}
 
 </style>
     </head>
     <body>
-          
-                    
+        
+              
         <div class="aa">
             <ul>
-                <li>Home</li>
-                <li>Abot</li>
-                <li>images</li>
-                <li>servic</li>
-                <li>maps</li>
-            <li>cail us</li>
-            </ul>
-      
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Abot</a></li>
+                <li><a href="#">images</a></li>
+                <li><a href="#">servic</a></li>
+                <li><a href="#">maps</a></li>
         </div>
-  <p><font color="black" > <h3>CODE FOR ANBAR </h3></font></p>
+        <nav id="navBar">
+              
+                <div class="ii"><img src="user.png" width="70" height="70"/></div>
+                <ul id="ulal">
+                    <li class="nav_btn" href="#"><a href="#">Sign up</a></li>
+                    <li class="nav_btn" href="#"><a href="#">Login</a></li>
+                    <a href="#"><img src="search.png"></a>
+                    <input id="navSearch" placeholder="Search...">
+                </ul>
+               
     <div class="aa"><img src="photo_2018-04-05_14-41-22.jpg" width="1260" height="220"/><div>
-<div claas="zz"><img src="aaa.jpg" width="260" height="360"/></div>
-<div class="hh"><img src="ttt.jpg" width="555" height="600"/></div>
-<div class="bilal">
-       
-                
-    <p>Code For Anbar</p>
-    <p><h3>@2017-0218 All rights reserved to bilal<h3></p>
+     
+
     
- 
-    </ul>
 </div>
+<section id="contactUs">
+        <h2>تواصل معنا</h2>
+        <div id="contactUsMain">
+            <div id="contactDetails">
+                <img class="contactImg" src="email.png">
+                <h3>bilal.fwawz@codeforiraq.org</h3>
+                <img class="contactImg" src="phone.png">
+                <h3>0782298485 - 0782298485</h3>
+        
+                <h3><a href="#" style="text-decoration: none; color: rgb(236, 2, 72)"></a></h3>
+            </div>
+            <div id="contactLocation">
+                <img class="contactImg" src="location.png">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8384.791537114324!2d43.299506338815505!3d33.432269186773055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x155a5d121453edb7%3A0x4eac947e008acc23!2z2YXYsdmD2LIg2KfZhNi52YrZhiDZhNmE2K3Yp9iz2KjYp9iq!5e0!3m2!1sar!2siq!4v1523995579421" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+           
+        <footer id="siteFooter">
+                <h3>جميع الحقوق محفوظه لدى مطور مركز العين للحسبات وتكنلوجيا المعلومات@</h3>
+                </footer>
+            </div>
+    
+        </div>
+    </section>
+
+    </div>
 
 </body>
 </html>
